@@ -1,7 +1,7 @@
 from sys import argv
 
 script, user_name = argv
-prompt = '> '
+prompt = '==) '
 
 print "Hi %s, I'm the %s script." % (user_name, script)
 print "I'd like to ask you a few questions."
@@ -15,7 +15,7 @@ print "What kind of computer do you have?"
 computer = raw_input(prompt)
 
 print """
-Alright, so you said %R about liking me.
+Alright, so you said %r about liking me.
 You live in %r. I'm not sure where that is.
 And you have a %r computer. Nice.
 """ % (likes, lives, computer)
